@@ -56,7 +56,7 @@ const AdminHomePage = () => {
                        {orders.length > 0 ? (orders.map((item)=>(
                         <tr key={item._id} className='border-b hover:bg-gray-50 cursor-pointe'>
                             <td className='p-4'>{item._id}</td>
-                            <td className='p-4'>{item.user.name}</td>
+                            <td className='p-4'>{item?.user.name ||"Unknown User"}</td>
                             <td className='p-4'>${item.totalPrice.toFixed(2)}</td>
                             <td className='p-4'>{item.status}</td>
                         </tr>
