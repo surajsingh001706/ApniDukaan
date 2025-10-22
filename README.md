@@ -30,7 +30,6 @@ This project demonstrates end-to-end development using the MERN stack, focusing 
 - **User Features**:
   - Role-based access: Buyers, Vendors, and Admins.
   - Responsive UI with lazy loading for fast navigation.
-  - Real-time notifications via WebSockets (extensible with Redis pub/sub).
 
 - **Security & Performance**:
   - JWT-based authentication with RBAC for granular permissions.
